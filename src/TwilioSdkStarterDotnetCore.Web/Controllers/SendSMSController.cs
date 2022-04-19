@@ -11,7 +11,7 @@ namespace TwilioSdkStarterDotnetCore.Web.Controllers
     public class SendSMSController : Controller
     {
         private readonly TwilioAccount _twilioAccount;
-        private readonly string authToken = "0691c867a7be4d8713a45114243c2d5a";
+        private readonly string authToken = "XXXXX";
 
         public SendSMSController(IOptions<TwilioAccount> twilioAccount)
         {
